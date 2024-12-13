@@ -17,7 +17,7 @@ class Product(models.Model):
     # Extracted Fields via NER
     extracted_product_name = models.CharField(max_length=255, blank=True, null=True)
     extracted_description = models.TextField(blank=True, null=True)
-    extracted_price = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)
+    extracted_price = models.CharField(max_length=255, blank=True, null=True)
     extracted_location = models.CharField(max_length=255, blank=True, null=True)
 
     # Status Flags
