@@ -5,6 +5,8 @@ from .models import Product
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
         'id',
+        'call_sid',
+        'audio_url',
         'extracted_product_name',
         'extracted_description',
         'extracted_price',
