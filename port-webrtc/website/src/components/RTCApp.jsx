@@ -3,13 +3,17 @@ import { useRef } from "react";
 import { io } from "socket.io-client"; // Import socket.io-client
 
 function RTCApp() {
-  const [socket, setSocket] = useState(null); // Socket connection
+  const [socket, setSocket] = useState(io("http://localhost:8088")); // Socket connection
   const [message, setMessage] = useState("");
   const [username, setUsername] = useState("");
   const [offerUser, setOfferUser] = useState("");
   const [allUsers, setAllUsers] = useState([]);
   const [offerReceived, setOfferReceived] = useState({});
   const [connectedUser, setConnectedUser] = useState(null);
+  const [offerOfUser, setOfferOfUser] = useState(null);
+
+  const [isCallOngoing, setIsCallOngoing] = useState(false);
+  const [isReceivingCall, setIsReceivingCall] = useState(false);
 
   const localVideoRef = useRef(null);
   const remoteVideoRef = useRef(null);
@@ -70,18 +74,7 @@ function RTCApp() {
 
         case "offer":
           console.log("Received offer from:", data.name);
-          setConnectedUser(data.name);
-          setOfferReceived({ name: data.name, received: true });
-
-          connectionRef.current.setRemoteDescription(
-            new RTCSessionDescription(data.offer),
-          );
-
-          connectionRef.current.createAnswer().then((answer) => {
-            connectionRef.current.setLocalDescription(answer);
-            send({ type: "answer", answer });
-          });
-
+          handleOffer(data.name, data.offer);
           break;
 
         case "answer":
@@ -114,8 +107,11 @@ function RTCApp() {
   }, []);
 
   const send = (message) => {
-    socket.send(JSON.stringify(message));
-    console.log("Message sent:", message);
+    if (socket && socket.connected) {
+      socket.emit("message", message); // Send the message to the server
+    } else {
+      console.error("Socket is not connected");
+    }
   };
   const handleAnswer = (answer) => {
     connectionRef.current.setRemoteDescription(
@@ -134,6 +130,31 @@ function RTCApp() {
     socket.emit("message", loginMessage); // Use socket.emit to send a message
   };
 
+  const handleOffer = (name, offer) => {
+    setConnectedUser(name);
+    setIsReceivingCall(true);
+    setOfferReceived({ name: name, received: true });
+    setOfferOfUser(offer);
+
+    connectionRef.current.setRemoteDescription(
+      new RTCSessionDescription(offer),
+    );
+
+    connectionRef.current.createAnswer().then((answer) => {
+      connectionRef.current.setLocalDescription(answer);
+      send({ type: "answer", answer });
+    });
+  };
+  const handleAnswerButton = () => {
+    connectionRef.current.setRemoteDescription(
+      new RTCSessionDescription(offerOfUser),
+    );
+    connectionRef.current.createAnswer().then((answer) => {
+      connectionRef.current.setLocalDescription(answer);
+      send({ type: "answer", answer });
+    });
+  };
+
   // Function to handle sending an offer
   const sendOffer = (targetUsername, offer) => {
     console.log(":hheolkw rowld");
@@ -145,6 +166,37 @@ function RTCApp() {
 
     console.log(":hheolkw rowld", offerMessage);
     socket.emit("message", offerMessage); // Use socket.emit to send an offer
+  };
+
+  const initiateCall = () => {
+    if (!offerUser) {
+      alert("Username can't be blank!");
+      return;
+    }
+    console.log(offerUser);
+
+    setConnectedUser(offerUser);
+    console.log("connecte", connectionRef.current);
+    //
+    connectionRef.current.createOffer().then((offer) => {
+      connectionRef.current.setLocalDescription(offer);
+      console.log("offer", offer);
+      send({ type: "offer", offer, name: offerUser });
+      setIsCallOngoing(true);
+    });
+  };
+
+  const handleLeave = () => {
+    setConnectedUser(null);
+    setIsCallOngoing(false);
+    remoteVideoRef.current.srcObject = null;
+    connectionRef.current.close();
+    connectionRef.current = null;
+  };
+
+  const hangUp = () => {
+    send({ type: "leave" });
+    handleLeave();
   };
 
   return (
@@ -176,7 +228,33 @@ function RTCApp() {
         offer aayo randi ko: {offerReceived.received ? offerReceived.name : ""}
       </div>
 
-      <button>Accept offer</button>
+      {isReceivingCall && (
+        <>
+          <button
+            onClick={() => {
+              handleAnswerButton();
+              setIsCallOngoing(true);
+              setIsReceivingCall(false);
+            }}
+          >
+            Answer
+          </button>
+          <button
+            onClick={() => {
+              setConnectedUser(null);
+              setIsReceivingCall(false);
+            }}
+          >
+            Decline
+          </button>
+        </>
+      )}
+
+      {isCallOngoing && (
+        <div id="callOngoing">
+          <button onClick={hangUp}>Hang Up</button>
+        </div>
+      )}
       <div>
         <input
           type="text"
@@ -184,9 +262,7 @@ function RTCApp() {
           onChange={(e) => setOfferUser(e.target.value)}
           placeholder="Enter who to offer "
         />
-        <button onClick={() => sendOffer(offerUser, "Special Offer")}>
-          Send Offer to User
-        </button>
+        <button onClick={() => initiateCall()}>Send Offer to User</button>
       </div>
     </div>
   );
