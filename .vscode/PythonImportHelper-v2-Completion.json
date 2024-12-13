@@ -1,0 +1,856 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "core.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "core.models",
+        "description": "core.models",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "openai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openai",
+        "description": "openai",
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "swagger_auto_schema",
+        "importPath": "drf_yasg.utils",
+        "description": "drf_yasg.utils",
+        "isExtraImport": true,
+        "detail": "drf_yasg.utils",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_view",
+        "importPath": "drf_yasg.views",
+        "description": "drf_yasg.views",
+        "isExtraImport": true,
+        "detail": "drf_yasg.views",
+        "documentation": {}
+    },
+    {
+        "label": "openapi",
+        "importPath": "drf_yasg",
+        "description": "drf_yasg",
+        "isExtraImport": true,
+        "detail": "drf_yasg",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0001_initial",
+        "description": "core.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Product',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('call_sid', models.CharField(max_length=34, unique=True)),",
+        "detail": "core.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0002_alter_product_call_sid_alter_product_location_audio",
+        "description": "core.migrations.0002_alter_product_call_sid_alter_product_location_audio",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"core\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"product\",\n            name=\"call_sid\",\n            field=models.CharField(max_length=34),\n        ),",
+        "detail": "core.migrations.0002_alter_product_call_sid_alter_product_location_audio",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0003_rename_description_text_product_audio_transcription_and_more",
+        "description": "core.migrations.0003_rename_description_text_product_audio_transcription_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"core\", \"0002_alter_product_call_sid_alter_product_location_audio\"),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name=\"product\",\n            old_name=\"description_text\",\n            new_name=\"audio_transcription\",\n        ),",
+        "detail": "core.migrations.0003_rename_description_text_product_audio_transcription_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0004_alter_product_audio_url",
+        "description": "core.migrations.0004_alter_product_audio_url",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"core\", \"0003_rename_description_text_product_audio_transcription_and_more\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"product\",\n            name=\"audio_url\",\n            field=models.FileField(upload_to=core.models.product_audio_upload_to),\n        ),",
+        "detail": "core.migrations.0004_alter_product_audio_url",
+        "documentation": {}
+    },
+    {
+        "label": "ProductAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class ProductAdmin(admin.ModelAdmin):\n    list_display = (\n        'id',\n        'call_sid',\n        'audio_url',\n        'extracted_product_name',\n        'extracted_description',\n        'extracted_price',\n        'pending_transcription',\n        'pending_ner',",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CoreConfig",
+        "kind": 6,
+        "importPath": "core.apps",
+        "description": "core.apps",
+        "peekOfCode": "class CoreConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'core'\n    def ready(self):\n        import core.signals",
+        "detail": "core.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Product(models.Model):\n    call_sid = models.CharField(max_length=34, unique=False)\n    # Audio File\n    audio_url = models.FileField(upload_to=product_audio_upload_to, blank=False, null=False)\n    # Transcribed Text Fields\n    audio_transcription = models.TextField(blank=True, null=True)\n    # Extracted Fields via NER\n    extracted_product_name = models.CharField(max_length=255, blank=True, null=True)\n    extracted_description = models.TextField(blank=True, null=True)\n    extracted_price = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "product_audio_upload_to",
+        "kind": 2,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "def product_audio_upload_to(instance, filename):\n    # Create a dynamic path based on instance's `call_sid` and `id`\n    return f'audio/{instance.call_sid}/{uuid.uuid4()}/{filename}'\nclass Product(models.Model):\n    call_sid = models.CharField(max_length=34, unique=False)\n    # Audio File\n    audio_url = models.FileField(upload_to=product_audio_upload_to, blank=False, null=False)\n    # Transcribed Text Fields\n    audio_transcription = models.TextField(blank=True, null=True)\n    # Extracted Fields via NER",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductCreateSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class ProductCreateSerializer(serializers.ModelSerializer):\n    \"\"\"\n    Serializer for creating a Product with audio files.\n    \"\"\"\n    audio_url = serializers.FileField(write_only=True)\n    class Meta:\n        model = Product\n        fields = ['call_sid', 'audio_url']\nclass ProductRetrieveSerializer(serializers.ModelSerializer):\n    \"\"\"",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProductRetrieveSerializer",
+        "kind": 6,
+        "importPath": "core.serializers",
+        "description": "core.serializers",
+        "peekOfCode": "class ProductRetrieveSerializer(serializers.ModelSerializer):\n    \"\"\"\n    Serializer for retrieving Product information (with transcribed text and extracted fields).\n    \"\"\"\n    class Meta:\n        model = Product\n        fields = [\n            'id',\n            'call_sid',\n            'audio_url',",
+        "detail": "core.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "handle_product_creation",
+        "kind": 2,
+        "importPath": "core.signals",
+        "description": "core.signals",
+        "peekOfCode": "def handle_product_creation(sender, instance, created, **kwargs):\n    if created:\n        # Trigger transcription task\n        print(f\"New Product created using Signals: {instance.call_sid}\")\n        # extract_and_save(instance.call_sid)",
+        "detail": "core.signals",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "core.urls",
+        "description": "core.urls",
+        "peekOfCode": "urlpatterns = [\n    path('create/', ProductCreateAPIView.as_view(), name='product-create'),\n    path('<int:pk>/', ProductRetrieveAPIView.as_view(), name='product-retrieve'),\n    path('', ProductListAPIView.as_view(), name='product-list'),\n]",
+        "detail": "core.urls",
+        "documentation": {}
+    },
+    {
+        "label": "download_audio",
+        "kind": 2,
+        "importPath": "core.utils",
+        "description": "core.utils",
+        "peekOfCode": "def download_audio(recording_url):\n    \"\"\"\n    Downloads the audio file from the given URL.\n    Args:\n        recording_url (str): URL of the audio file.\n    Returns:\n        bytes or None: Binary content of the audio file if successful, else None.\n    \"\"\"\n    try:\n        response = requests.get(recording_url, timeout=15)",
+        "detail": "core.utils",
+        "documentation": {}
+    },
+    {
+        "label": "transcribe_audio",
+        "kind": 2,
+        "importPath": "core.utils",
+        "description": "core.utils",
+        "peekOfCode": "def transcribe_audio(recording_url):\n    \"\"\"\n    Transcribes audio using OpenAI's Whisper API.\n    Args:\n        recording_url (str): URL of the audio file.\n    Returns:\n        str: Transcribed text or empty string on failure.\n    \"\"\"\n    if not WHISPER_API_KEY:\n        logger.error(\"Whisper API key is not configured.\")",
+        "detail": "core.utils",
+        "documentation": {}
+    },
+    {
+        "label": "perform_ner",
+        "kind": 2,
+        "importPath": "core.utils",
+        "description": "core.utils",
+        "peekOfCode": "def perform_ner(transcript):\n    \"\"\"\n    Performs NER using GPT0.\n    Args:\n        transcript (str): Transcribed text.\n    Returns:\n        dict: Extracted fields {'product_name': str, 'description': str, 'price': str, 'location': str}.\n    \"\"\"\n    if not GPT0_API_KEY:\n        logger.error(\"GPT0 API key is not configured.\")",
+        "detail": "core.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_price",
+        "kind": 2,
+        "importPath": "core.utils",
+        "description": "core.utils",
+        "peekOfCode": "def extract_price(price_input):\n    \"\"\"\n    Extracts and parses price from string.\n    Args:\n        price_input (str): Price string.\n    Returns:\n        Decimal: Parsed price or Decimal('0.00') on failure.\n    \"\"\"\n    match = re.search(r'(\\d{1,3}(?:,\\d{3})*(?:\\.\\d{2})?)', price_input)\n    if match:",
+        "detail": "core.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_and_save",
+        "kind": 2,
+        "importPath": "core.utils",
+        "description": "core.utils",
+        "peekOfCode": "def extract_and_save(call_sid):\n    \"\"\"\n    Orchestrates the transcription and NER workflow for a given call_sid.\n    Args:\n        call_sid (str): Unique identifier for the call.\n    Returns:\n        bool: True if both transcription and NER are successful, False otherwise.\n    \"\"\"\n    try:\n        product = Product.objects.get(call_sid=call_sid)",
+        "detail": "core.utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "core.utils",
+        "description": "core.utils",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# OpenAI API Keys\nWHISPER_API_KEY = settings.OPENAI_WHISPER_API_KEY\nGPT0_API_KEY = settings.OPENAI_GPT4O_API_KEY\ndef download_audio(recording_url):\n    \"\"\"\n    Downloads the audio file from the given URL.\n    Args:\n        recording_url (str): URL of the audio file.\n    Returns:",
+        "detail": "core.utils",
+        "documentation": {}
+    },
+    {
+        "label": "WHISPER_API_KEY",
+        "kind": 5,
+        "importPath": "core.utils",
+        "description": "core.utils",
+        "peekOfCode": "WHISPER_API_KEY = settings.OPENAI_WHISPER_API_KEY\nGPT0_API_KEY = settings.OPENAI_GPT4O_API_KEY\ndef download_audio(recording_url):\n    \"\"\"\n    Downloads the audio file from the given URL.\n    Args:\n        recording_url (str): URL of the audio file.\n    Returns:\n        bytes or None: Binary content of the audio file if successful, else None.\n    \"\"\"",
+        "detail": "core.utils",
+        "documentation": {}
+    },
+    {
+        "label": "GPT0_API_KEY",
+        "kind": 5,
+        "importPath": "core.utils",
+        "description": "core.utils",
+        "peekOfCode": "GPT0_API_KEY = settings.OPENAI_GPT4O_API_KEY\ndef download_audio(recording_url):\n    \"\"\"\n    Downloads the audio file from the given URL.\n    Args:\n        recording_url (str): URL of the audio file.\n    Returns:\n        bytes or None: Binary content of the audio file if successful, else None.\n    \"\"\"\n    try:",
+        "detail": "core.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ProductCreateAPIView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class ProductCreateAPIView(generics.CreateAPIView):\n    \"\"\"\n    API view to create a new Product instance with an audio file upload.\n    \"\"\"\n    queryset = Product.objects.all()\n    serializer_class = ProductCreateSerializer\n    permission_classes = [AllowAny]  # Open to everyone\n    @swagger_auto_schema(\n        operation_description=\"Create a new Product with an audio file upload. The audio file will be processed for transcription.\",\n        request_body=ProductCreateSerializer,",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProductRetrieveAPIView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class ProductRetrieveAPIView(generics.RetrieveAPIView):\n    \"\"\"\n    API view to retrieve a single Product by its `call_sid`.\n    \"\"\"\n    queryset = Product.objects.all()\n    serializer_class = ProductRetrieveSerializer\n    permission_classes = [permissions.AllowAny]  # Open to everyone\n    @swagger_auto_schema(\n        operation_description=\"Retrieve details of a specific Product by its ID.\",\n        responses={",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProductListAPIView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class ProductListAPIView(generics.ListAPIView):\n    \"\"\"\n    API view to list all Product instances.\n    \"\"\"\n    queryset = Product.objects.all()\n    serializer_class = ProductRetrieveSerializer\n    permission_classes = [permissions.AllowAny]  # Open to everyone\n    @swagger_auto_schema(\n        operation_description=\"List all Products in the system.\",\n        responses={",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ringsewa.asgi",
+        "description": "ringsewa.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "ringsewa.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.getenv('DJANGO_SECRET_KEY')\n# OpenAI API Keys\nOPENAI_WHISPER_API_KEY = os.getenv('OPENAI_WHISPER_API_KEY')\nOPENAI_GPT4O_API_KEY = os.getenv('OPENAI_GPT4O_API_KEY')\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')\n# OpenAI API Keys\nOPENAI_WHISPER_API_KEY = os.getenv('OPENAI_WHISPER_API_KEY')\nOPENAI_GPT4O_API_KEY = os.getenv('OPENAI_GPT4O_API_KEY')\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "OPENAI_WHISPER_API_KEY",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "OPENAI_WHISPER_API_KEY = os.getenv('OPENAI_WHISPER_API_KEY')\nOPENAI_GPT4O_API_KEY = os.getenv('OPENAI_GPT4O_API_KEY')\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "OPENAI_GPT4O_API_KEY",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "OPENAI_GPT4O_API_KEY = os.getenv('OPENAI_GPT4O_API_KEY')\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # Third party apps",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # Third party apps\n    'rest_framework',\n    'drf_yasg',",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework.authentication.SessionAuthentication',\n        'rest_framework.authentication.BasicAuthentication',\n    ),\n    'DEFAULT_PERMISSION_CLASSES': (\n        'rest_framework.permissions.AllowAny',  \n    ),\n}",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'ringsewa.urls'",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "ROOT_URLCONF = 'ringsewa.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'ringsewa.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Logging Configuration\nLOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'handlers': {\n        'file': {",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Logging Configuration\nLOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'handlers': {\n        'file': {\n            'level': 'DEBUG',",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Logging Configuration\nLOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'handlers': {\n        'file': {\n            'level': 'DEBUG',\n            'class': 'logging.FileHandler',",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "USE_TZ = True\n# Logging Configuration\nLOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'handlers': {\n        'file': {\n            'level': 'DEBUG',\n            'class': 'logging.FileHandler',\n            'filename': os.path.join(BASE_DIR, 'ringsewa.log'),",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGGING",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "LOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'handlers': {\n        'file': {\n            'level': 'DEBUG',\n            'class': 'logging.FileHandler',\n            'filename': os.path.join(BASE_DIR, 'ringsewa.log'),\n        },\n        'console': {",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "STATIC_URL = \"/static/\"\nSTATIC_ROOT = f\"{os.environ.get('HOST_PATH')}/static\"\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = f\"{os.environ.get('HOST_PATH')}/media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "STATIC_ROOT = f\"{os.environ.get('HOST_PATH')}/static\"\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = f\"{os.environ.get('HOST_PATH')}/media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "MEDIA_URL = \"/media/\"\nMEDIA_ROOT = f\"{os.environ.get('HOST_PATH')}/media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "MEDIA_ROOT = f\"{os.environ.get('HOST_PATH')}/media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "ringsewa.settings",
+        "description": "ringsewa.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "ringsewa.settings",
+        "documentation": {}
+    },
+    {
+        "label": "schema_view",
+        "kind": 5,
+        "importPath": "ringsewa.urls",
+        "description": "ringsewa.urls",
+        "peekOfCode": "schema_view = get_schema_view(\n   openapi.Info(\n      title=\"RingSewa API\",\n      default_version='v1',\n      description=\"API documentation for RingSewa MVP\",\n      terms_of_service=\"https://www.google.com/policies/terms/\",\n      contact=openapi.Contact(email=\"contact@ringsewa.local\"),\n      license=openapi.License(name=\"BSD License\"),\n   ),\n   public=True,",
+        "detail": "ringsewa.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ringsewa.urls",
+        "description": "ringsewa.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('product/', include('core.urls')),\n    # Swagger UI and ReDoc\n    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),\n    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),\n    # Raw OpenAPI schemas\n    path('swagger.json', schema_view.without_ui(cache_timeout=0), name='schema-json'),\n    path('swagger.yaml', schema_view.without_ui(cache_timeout=0), name='schema-yaml'),\n] ",
+        "detail": "ringsewa.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ringsewa.wsgi",
+        "description": "ringsewa.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "ringsewa.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ringsewa.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
