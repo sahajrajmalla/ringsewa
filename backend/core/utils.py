@@ -115,6 +115,8 @@ def perform_ner(transcript):
     
     Note: Leave empty if the information is not present but do your best to search for it and guess and you can change the text if needed, if transcription is not accurate.
     PS: If you are not sure about the answer, you can leave it empty but reply no matter what.
+    Important: Please provide the output in JSON format.
+    
     """
 
     headers = {
