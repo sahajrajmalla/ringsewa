@@ -7,5 +7,5 @@ from .utils import extract_and_save
 def handle_product_creation(sender, instance, created, **kwargs):
     if created:
         # Trigger transcription task
-        print(f"New Product created: {instance.call_sid}")
+        print(f"New Product created using Signals: {instance.call_sid}")
         # extract_and_save(instance.call_sid)
