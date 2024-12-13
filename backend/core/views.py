@@ -18,6 +18,7 @@ class ProductCreateAPIView(generics.CreateAPIView):
     queryset = Product.objects.all()
     serializer_class = ProductCreateSerializer
     permission_classes = [AllowAny]  # Open to everyone
+    authentication_classes = []  # No authentication required
 
     @swagger_auto_schema(
         operation_description="Create a new Product with an audio file upload. The audio file will be processed for transcription.",
@@ -53,6 +54,8 @@ class ProductRetrieveAPIView(generics.RetrieveAPIView):
     queryset = Product.objects.all()
     serializer_class = ProductRetrieveSerializer
     permission_classes = [permissions.AllowAny]  # Open to everyone
+    authentication_classes = []  # No authentication required
+
 
     @swagger_auto_schema(
         operation_description="Retrieve details of a specific Product by its ID.",
@@ -76,6 +79,8 @@ class ProductListAPIView(generics.ListAPIView):
     queryset = Product.objects.all()
     serializer_class = ProductRetrieveSerializer
     permission_classes = [permissions.AllowAny]  # Open to everyone
+    authentication_classes = []  # No authentication required
+
 
     @swagger_auto_schema(
         operation_description="List all Products in the system.",
