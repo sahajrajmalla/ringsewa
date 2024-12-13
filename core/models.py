@@ -1,10 +1,15 @@
 from django.db import models
+import uuid
+
+def product_audio_upload_to(instance, filename):
+    # Create a dynamic path based on instance's `call_sid` and `id`
+    return f'audio/{instance.call_sid}/{uuid.uuid4()}/{filename}'
 
 class Product(models.Model):
     call_sid = models.CharField(max_length=34, unique=False)
 
     # Audio File
-    audio_url = models.FileField(upload_to=f'audio/{call_sid}/{id}/', blank=False, null=False)
+    audio_url = models.FileField(upload_to=product_audio_upload_to, blank=False, null=False)
 
     # Transcribed Text Fields
     audio_transcription = models.TextField(blank=True, null=True)
