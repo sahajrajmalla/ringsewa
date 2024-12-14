@@ -36,7 +36,6 @@ let avatar;
 
 // New variable to manage automated responses
 let automatedResponseInterval = null;
-const AUTOMATED_RESPONSES_DIR = 'automated-response'; // Directory for MP3 files
 
 // List of available response files
 const RESPONSES = [
